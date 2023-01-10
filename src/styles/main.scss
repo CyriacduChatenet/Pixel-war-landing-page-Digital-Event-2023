@@ -43,5 +43,10 @@
 // }
 
 @import "./base/typography";
+@import "./base/variables";
+
+@import "./components/header";
+@import "./components/timer";
+@import "./components/button";
 
 @import "./pages/home";
