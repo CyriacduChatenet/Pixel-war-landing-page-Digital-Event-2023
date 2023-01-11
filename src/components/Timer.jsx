@@ -5,7 +5,7 @@ const Timer = () => {
     const [minutes, setMinutes] = useState(0)
     const [seconds, setSeconds] = useState(0)
 
-    const deadline = '12 Jan 2023 12:00:00 GMT' // GMT = notre heure - 1 heure
+    const deadline = '13 Jan 2023 12:00:00 GMT' // GMT = notre heure - 1 heure
 
     const parseTime = (result) => {
         if(result < 10) {
